@@ -1,18 +1,17 @@
 {
-  "compilerOptions": {
-    "baseUrl": ".",
-    "module": "ESNext",
-    "target": "es2016",
-    "lib": ["DOM", "ESNext"],
-    "strict": true,
-    "jsx": "preserve",
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "noUnusedLocals": true,
-    "strictNullChecks": true,
-    "forceConsistentCasingInFileNames": true
-  },
-  "exclude": ["dist", "node_modules"]
+	"compilerOptions": {
+		"moduleResolution": "node",
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"declaration": true,
+		"outDir": "dist",
+		"strict": true,
+
+		// Node 12
+		"module": "commonjs",
+		"target": "ES2019"
+	},
+	"include": [
+		"src"
+	]
 }

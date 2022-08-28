@@ -12,12 +12,12 @@
 			"require": "./dist/loader.js"
 		},
 		"./install-vue-frag": {
-			"import": "./dist/install-vue-fragment.js"
+			"import": "./dist/install.js"
 		}
 	},
 	"types": "./dist/index.d.ts",
   "scripts": {
-    "build": "rimraf dist && rollup -c rollup.config.js",
+    "build": "rimraf dist && rollup -c rollup.config.ts",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
     "test": "jest",
     "lint": "eslint .",
@@ -25,12 +25,12 @@
     "typecheck": "tsc --noEmit"
   },
   "peerDependencies": {
-    "@elonehoo/vue-fragment": ">=0.0.2"
+    "@elonehoo/vue-fragment": ">=0.0.3"
   },
   "devDependencies": {
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/rimraf": "^0.0.1",
-    "@elonehoo/vue-fragment": "^0.0.2",
+    "@elonehoo/vue-fragment": "^0.0.3",
     "@rollup/plugin-alias": "^3.1.9",
     "@rollup/plugin-commonjs": "^22.0.2",
     "@rollup/plugin-node-resolve": "^13.3.0",

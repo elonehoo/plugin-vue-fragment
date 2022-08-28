@@ -49,7 +49,7 @@ export default [
 
 	// Vue frag auto installer
 	defineConfig({
-		input: './src/install-vue-frag.js',
+		input: './src/install.ts',
 
 		plugins: [
 			resolve(),
@@ -59,7 +59,7 @@ export default [
 			}),
 		],
 
-		external: ['vue', 'vue-frag'],
+		external: ['vue', '@elonehoo/vue-fragment'],
 
 		output: {
 			dir: './dist',

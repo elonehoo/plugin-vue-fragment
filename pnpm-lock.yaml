@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@elonehoo/eslint-config': 2.0.0
   '@elonehoo/rimraf': ^0.0.1
-  '@elonehoo/vue-fragment': ^0.0.2
+  '@elonehoo/vue-fragment': ^0.0.3
   '@rollup/plugin-alias': ^3.1.9
   '@rollup/plugin-commonjs': ^22.0.2
   '@rollup/plugin-node-resolve': ^13.3.0
@@ -48,7 +48,7 @@ dependencies:
 devDependencies:
   '@elonehoo/eslint-config': 2.0.0_yqf6kl63nyoq5megxukfnom5rm
   '@elonehoo/rimraf': 0.0.1
-  '@elonehoo/vue-fragment': 0.0.2_vue@2.7.10
+  '@elonehoo/vue-fragment': 0.0.3_vue@2.7.10
   '@rollup/plugin-alias': 3.1.9_rollup@2.78.1
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.78.1
   '@rollup/plugin-node-resolve': 13.3.0_rollup@2.78.1
@@ -527,8 +527,8 @@ packages:
       glob: 8.0.3
     dev: true
 
-  /@elonehoo/vue-fragment/0.0.2_vue@2.7.10:
-    resolution: {integrity: sha512-J4bXd4maIl0U1tkDBKUYSngliyMLRj6QDB90BPH9UDq68lFT/CeJT/Mv7lxvBe4CirFHAKvpEcDhFjo7npGFZg==}
+  /@elonehoo/vue-fragment/0.0.3_vue@2.7.10:
+    resolution: {integrity: sha512-TBtkYf2KfniRJJzpT5KgBwUgMyEPYYlvN1c5ZP476bjjtsLO1zP4OyvXDUbO6ALw1jVQzngmPPPGZ+5xrpyvNg==}
     peerDependencies:
       vue: '>=2.6.0'
     dependencies:
