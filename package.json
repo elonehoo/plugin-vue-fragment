@@ -1,6 +1,6 @@
 {
   "name": "@elonehoo/plugin-vue-fragment",
-  "version": "0.0.1-beta.2",
+  "version": "0.0.1-beta.3",
   "files": [
     "dist"
   ],
@@ -8,7 +8,7 @@
   "main": "./dist/index.js",
   "exports": {
     ".": {
-      "require":"./dist/index.js",
+      "require": "./dist/index.js",
       "import": "./dist/index.js"
     },
     "./loader": {
