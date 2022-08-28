@@ -1,21 +1,21 @@
 {
   "name": "@elonehoo/plugin-vue-fragment",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "files": [
-		"dist"
-	],
-	"exports": {
-		".": {
-			"require": "./dist/index.js"
-		},
-		"./loader": {
-			"require": "./dist/loader.js"
-		},
-		"./install-vue-frag": {
-			"import": "./dist/install.js"
-		}
-	},
-	"types": "./dist/index.d.ts",
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "require": "./dist/index.js"
+    },
+    "./loader": {
+      "require": "./dist/loader.js"
+    },
+    "./install-vue-frag": {
+      "import": "./dist/install.js"
+    }
+  },
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist && rollup -c rollup.config.ts",
     "release": "bumpp package.json --commit --push --tag && pnpm -r publish --access public",
