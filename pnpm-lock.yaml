@@ -8,7 +8,7 @@ specifiers:
   '@rollup/plugin-commonjs': 22.0.2
   '@rollup/plugin-node-resolve': 14.0.1
   '@rollup/pluginutils': ^4.2.1
-  '@types/jest': 29.0.0
+  '@types/jest': 29.0.1
   '@types/node': 18.7.16
   '@vue/compiler-core': 3.2.39
   '@vue/compiler-dom': ^3.2.37
@@ -52,7 +52,7 @@ devDependencies:
   '@rollup/plugin-alias': 3.1.9_rollup@2.79.0
   '@rollup/plugin-commonjs': 22.0.2_rollup@2.79.0
   '@rollup/plugin-node-resolve': 14.0.1_rollup@2.79.0
-  '@types/jest': 29.0.0
+  '@types/jest': 29.0.1
   '@types/node': 18.7.16
   '@vue/compiler-core': 3.2.39
   '@vue/compiler-sfc': 3.2.39
@@ -1065,8 +1065,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.0.0:
-    resolution: {integrity: sha512-X6Zjz3WO4cT39Gkl0lZ2baFRaEMqJl5NC1OjElkwtNzAlbkr2K/WJXkBkH5VP0zx4Hgsd2TZYdOEfvp2Dxia+Q==}
+  /@types/jest/29.0.1:
+    resolution: {integrity: sha512-CAZrjLRZs4xEdIrfrdV74xK1Vo/BKQZwUcjJv3gp6gMeV3BsVxMnXTcgtYOKyphT4DPPo7jxVEVhuwJTQn3oPQ==}
     dependencies:
       expect: 29.0.3
       pretty-format: 29.0.3
