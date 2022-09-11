@@ -26,7 +26,7 @@ specifiers:
   magic-string: ^0.26.2
   memfs: 3.4.7
   outdent: 0.8.0
-  pnpm: 7.9.5
+  pnpm: 7.11.0
   rollup: 2.79.0
   rollup-plugin-dts: 4.2.2
   rollup-plugin-esbuild: 4.10.1
@@ -68,7 +68,7 @@ devDependencies:
   lint-staged: 13.0.3
   memfs: 3.4.7
   outdent: 0.8.0
-  pnpm: 7.9.5
+  pnpm: 7.11.0
   rollup: 2.79.0
   rollup-plugin-dts: 4.2.2_ihkqvyh37tzxtjmovjyy2yrv7m
   rollup-plugin-esbuild: 4.10.1_uu2p2v3owefbwsafzxfcsbbrxa
@@ -4584,8 +4584,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pnpm/7.9.5:
-    resolution: {integrity: sha512-+r7+PlBIsblqia8eUOUsBp/R+lHmGAm55jyQRt3DWMUI0srVR1aNJhQECfx24L53Ckz9g48mVxQXEniQMWQPmw==}
+  /pnpm/7.11.0:
+    resolution: {integrity: sha512-cxh4TfCE8L4ZbLBN72kTGKTYP7X08nrIzoQ2rQCKihAcIHAdNIgsk4bEJyE1xHjE+bNJt9skwr7aJv3LpvUawQ==}
     engines: {node: '>=14.6'}
     hasBin: true
     dev: true
