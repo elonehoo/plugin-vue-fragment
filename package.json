@@ -53,7 +53,7 @@
     "lint-staged": "13.0.3",
     "memfs": "3.4.7",
     "outdent": "0.8.0",
-    "pnpm": "7.11.0",
+    "pnpm": "7.13.5",
     "rollup": "2.79.0",
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-esbuild": "4.10.1",
