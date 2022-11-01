@@ -34,7 +34,7 @@
     "@elonehoo/eslint-config": "2.0.0",
     "@elonehoo/rimraf": "0.0.1",
     "@elonehoo/vue-fragment": "0.0.3",
-    "@rollup/plugin-alias": "3.1.9",
+    "@rollup/plugin-alias": "4.0.2",
     "@rollup/plugin-commonjs": "22.0.2",
     "@rollup/plugin-node-resolve": "14.0.1",
     "@types/jest": "29.0.1",
