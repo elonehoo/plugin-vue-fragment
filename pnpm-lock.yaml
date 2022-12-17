@@ -5,7 +5,7 @@ specifiers:
   '@elonehoo/rimraf': 0.0.1
   '@elonehoo/vue-fragment': 0.0.3
   '@rollup/plugin-alias': 3.1.9
-  '@rollup/plugin-commonjs': 22.0.2
+  '@rollup/plugin-commonjs': 23.0.7
   '@rollup/plugin-node-resolve': 14.0.1
   '@rollup/pluginutils': ^5.0.2
   '@types/jest': 29.0.1
@@ -41,7 +41,7 @@ specifiers:
   webpack-test-utils: 1.1.0
 
 dependencies:
-  '@rollup/pluginutils': 5.0.2_rollup@2.79.0
+  '@rollup/pluginutils': 5.0.2_rollup@3.2.4
   '@vue/compiler-dom': 3.2.37
   magic-string: 0.26.2
 
@@ -50,7 +50,7 @@ devDependencies:
   '@elonehoo/rimraf': 0.0.1
   '@elonehoo/vue-fragment': 0.0.3_vue@3.2.39
   '@rollup/plugin-alias': 3.1.9_rollup@3.2.4
-  '@rollup/plugin-commonjs': 22.0.2_rollup@3.2.4
+  '@rollup/plugin-commonjs': 23.0.7_rollup@3.2.4
   '@rollup/plugin-node-resolve': 14.0.1_rollup@3.2.4
   '@types/jest': 29.0.1
   '@types/node': 18.7.16
@@ -922,19 +922,21 @@ packages:
       slash: 3.0.0
     dev: true
 
-  /@rollup/plugin-commonjs/22.0.2_rollup@3.2.4:
-    resolution: {integrity: sha512-//NdP6iIwPbMTcazYsiBMbJW7gfmpHom33u1beiIoHDEM0Q9clvtQB1T0efvMqHeKsGohiHo97BCPCkBXdscwg==}
-    engines: {node: '>= 12.0.0'}
+  /@rollup/plugin-commonjs/23.0.7_rollup@3.2.4:
+    resolution: {integrity: sha512-hsSD5Qzyuat/swzrExGG5l7EuIlPhwTsT7KwKbSCQzIcJWjRxiimi/0tyMYY2bByitNb3i1p+6JWEDGa0NvT0Q==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^2.68.0
+      rollup: ^2.68.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@3.2.4
+      '@rollup/pluginutils': 5.0.2_rollup@3.2.4
       commondir: 1.0.1
       estree-walker: 2.0.2
-      glob: 7.2.3
+      glob: 8.0.3
       is-reference: 1.2.1
-      magic-string: 0.25.9
-      resolve: 1.22.1
+      magic-string: 0.27.0
       rollup: 3.2.4
     dev: true
 
@@ -973,7 +975,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@2.79.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.2.4:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -985,8 +987,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 2.79.0
-    dev: false
+      rollup: 3.2.4
 
   /@sinclair/typebox/0.24.28:
     resolution: {integrity: sha512-dgJd3HLOkLmz4Bw50eZx/zJwtBq65nms3N9VBYu5LTjJ883oBFkTyXRlCB/ZGGwqYpJJHA5zW2Ibhl5ngITfow==}
@@ -4107,6 +4108,13 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
