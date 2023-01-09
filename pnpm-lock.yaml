@@ -6,7 +6,7 @@ specifiers:
   '@elonehoo/vue-fragment': 0.0.3
   '@rollup/plugin-alias': 4.0.2
   '@rollup/plugin-commonjs': 22.0.2
-  '@rollup/plugin-node-resolve': 14.0.1
+  '@rollup/plugin-node-resolve': 15.0.1
   '@rollup/pluginutils': ^5.0.2
   '@types/jest': 29.0.1
   '@types/node': 18.7.16
@@ -51,7 +51,7 @@ devDependencies:
   '@elonehoo/vue-fragment': 0.0.3_vue@3.2.39
   '@rollup/plugin-alias': 4.0.2_rollup@3.2.4
   '@rollup/plugin-commonjs': 22.0.2_rollup@3.2.4
-  '@rollup/plugin-node-resolve': 14.0.1_rollup@3.2.4
+  '@rollup/plugin-node-resolve': 15.0.1_rollup@3.2.4
   '@types/jest': 29.0.1
   '@types/node': 18.7.16
   '@vue/compiler-core': 3.2.39
@@ -941,14 +941,17 @@ packages:
       rollup: 3.2.4
     dev: true
 
-  /@rollup/plugin-node-resolve/14.0.1_rollup@3.2.4:
-    resolution: {integrity: sha512-YvSs0ev00QWTQS8u+yaCJkIUPBgpmBsnzRJFvg8c2chbky85ZKoZtoNuRH0k9rjZT4xpgEPOiVTyeJTj1/iMdQ==}
-    engines: {node: '>= 10.0.0'}
+  /@rollup/plugin-node-resolve/15.0.1_rollup@3.2.4:
+    resolution: {integrity: sha512-ReY88T7JhJjeRVbfCyNj+NXAG3IIsVMsX9b5/9jC98dRP8/yxlZdz7mHZbHk5zHr24wZZICS5AcXsFZAXYUQEg==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^2.78.0
+      rollup: ^2.78.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
-      '@rollup/pluginutils': 3.1.0_rollup@3.2.4
-      '@types/resolve': 1.17.1
+      '@rollup/pluginutils': 5.0.2_rollup@3.2.4
+      '@types/resolve': 1.20.2
       deepmerge: 4.2.2
       is-builtin-module: 3.2.0
       is-module: 1.0.0
@@ -989,7 +992,6 @@ packages:
       estree-walker: 2.0.2
       picomatch: 2.3.1
       rollup: 3.2.4
-    dev: false
 
   /@sinclair/typebox/0.24.28:
     resolution: {integrity: sha512-dgJd3HLOkLmz4Bw50eZx/zJwtBq65nms3N9VBYu5LTjJ883oBFkTyXRlCB/ZGGwqYpJJHA5zW2Ibhl5ngITfow==}
@@ -1116,10 +1118,8 @@ packages:
     resolution: {integrity: sha512-RI1L7N4JnW5gQw2spvL7Sllfuf1SaHdrZpCHiBlCXjIlufi1SMNnbu2teze3/QE67Fg2tBlH7W+mi4hVNk4p0A==}
     dev: true
 
-  /@types/resolve/1.17.1:
-    resolution: {integrity: sha512-yy7HuzQhj0dhGpD8RLXSZWEkLsV9ibvxvi6EiJ3bkqLAO1RGo0WbkWQiwpRlSFymTJRz0d3k5LM3kkx8ArDbLw==}
-    dependencies:
-      '@types/node': 18.7.16
+  /@types/resolve/1.20.2:
+    resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
     dev: true
 
   /@types/stack-utils/2.0.1:
