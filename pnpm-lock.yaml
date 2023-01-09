@@ -4,7 +4,7 @@ specifiers:
   '@elonehoo/eslint-config': 2.0.0
   '@elonehoo/rimraf': 0.0.1
   '@elonehoo/vue-fragment': 0.0.3
-  '@rollup/plugin-alias': 3.1.9
+  '@rollup/plugin-alias': 4.0.2
   '@rollup/plugin-commonjs': 22.0.2
   '@rollup/plugin-node-resolve': 14.0.1
   '@rollup/pluginutils': ^5.0.2
@@ -41,7 +41,7 @@ specifiers:
   webpack-test-utils: 1.1.0
 
 dependencies:
-  '@rollup/pluginutils': 5.0.2_rollup@2.79.0
+  '@rollup/pluginutils': 5.0.2_rollup@3.2.4
   '@vue/compiler-dom': 3.2.37
   magic-string: 0.26.2
 
@@ -49,7 +49,7 @@ devDependencies:
   '@elonehoo/eslint-config': 2.0.0_itqs5654cmlnjraw6gjzqacppi
   '@elonehoo/rimraf': 0.0.1
   '@elonehoo/vue-fragment': 0.0.3_vue@3.2.39
-  '@rollup/plugin-alias': 3.1.9_rollup@3.2.4
+  '@rollup/plugin-alias': 4.0.2_rollup@3.2.4
   '@rollup/plugin-commonjs': 22.0.2_rollup@3.2.4
   '@rollup/plugin-node-resolve': 14.0.1_rollup@3.2.4
   '@types/jest': 29.0.1
@@ -912,14 +912,17 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@rollup/plugin-alias/3.1.9_rollup@3.2.4:
-    resolution: {integrity: sha512-QI5fsEvm9bDzt32k39wpOwZhVzRcL5ydcffUHMyLVaVaLeC70I8TJZ17F1z1eMoLu4E/UOcH9BWVkKpIKdrfiw==}
-    engines: {node: '>=8.0.0'}
+  /@rollup/plugin-alias/4.0.2_rollup@3.2.4:
+    resolution: {integrity: sha512-1hv7dBOZZwo3SEupxn4UA2N0EDThqSSS+wI1St1TNTBtOZvUchyIClyHcnDcjjrReTPZ47Faedrhblv4n+T5UQ==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
-      rollup: ^1.20.0||^2.0.0
+      rollup: ^1.20.0||^2.0.0||^3.0.0
+    peerDependenciesMeta:
+      rollup:
+        optional: true
     dependencies:
       rollup: 3.2.4
-      slash: 3.0.0
+      slash: 4.0.0
     dev: true
 
   /@rollup/plugin-commonjs/22.0.2_rollup@3.2.4:
@@ -973,7 +976,7 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@rollup/pluginutils/5.0.2_rollup@2.79.0:
+  /@rollup/pluginutils/5.0.2_rollup@3.2.4:
     resolution: {integrity: sha512-pTd9rIsP92h+B6wWwFbW8RkZv4hiR/xKsqre4SIuAOaOEQRxi0lqLke9k2/7WegC85GgUs9pjmOjCUi3In4vwA==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -985,7 +988,7 @@ packages:
       '@types/estree': 1.0.0
       estree-walker: 2.0.2
       picomatch: 2.3.1
-      rollup: 2.79.0
+      rollup: 3.2.4
     dev: false
 
   /@sinclair/typebox/0.24.28:
@@ -4835,6 +4838,11 @@ packages:
   /slash/3.0.0:
     resolution: {integrity: sha512-g9Q1haeby36OSStwb4ntCGGGaKsaVSjQ68fBxoQcutl5fS1vuY18H3wSt3jFyFtrkx+Kz0V1G85A4MyAdDMi2Q==}
     engines: {node: '>=8'}
+    dev: true
+
+  /slash/4.0.0:
+    resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
+    engines: {node: '>=12'}
     dev: true
 
   /slice-ansi/3.0.0:
