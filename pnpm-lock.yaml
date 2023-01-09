@@ -28,7 +28,7 @@ specifiers:
   outdent: 0.8.0
   pnpm: 7.11.0
   rollup: 3.2.4
-  rollup-plugin-dts: 4.2.2
+  rollup-plugin-dts: 5.1.1
   rollup-plugin-esbuild: 4.10.1
   rollup-plugin-vue: 6.0.0
   typescript: 4.8.3
@@ -70,7 +70,7 @@ devDependencies:
   outdent: 0.8.0
   pnpm: 7.11.0
   rollup: 3.2.4
-  rollup-plugin-dts: 4.2.2_zkowgjetcdecyi6gny2zlx62su
+  rollup-plugin-dts: 5.1.1_zkowgjetcdecyi6gny2zlx62su
   rollup-plugin-esbuild: 4.10.1_nvzzlblc33fighlfyfdlg6oka4
   rollup-plugin-vue: 6.0.0_@vue+compiler-sfc@3.2.39
   typescript: 4.8.3
@@ -4110,6 +4110,14 @@ packages:
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
+    dev: false
+
+  /magic-string/0.27.0:
+    resolution: {integrity: sha512-8UnnX2PeRAPZuN12svgR9j7M1uWMovg/CEnIwIG0LFkXSJJe4PdfUGiTGl8V9bsBHFUtfVINcSyYxd7q+kx9fA==}
+    engines: {node: '>=12'}
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.4.14
+    dev: true
 
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
@@ -4690,14 +4698,14 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup-plugin-dts/4.2.2_zkowgjetcdecyi6gny2zlx62su:
-    resolution: {integrity: sha512-A3g6Rogyko/PXeKoUlkjxkP++8UDVpgA7C+Tdl77Xj4fgEaIjPSnxRmR53EzvoYy97VMVwLAOcWJudaVAuxneQ==}
-    engines: {node: '>=v12.22.11'}
+  /rollup-plugin-dts/5.1.1_zkowgjetcdecyi6gny2zlx62su:
+    resolution: {integrity: sha512-zpgo52XmnLg8w4k3MScinFHZK1+ro6r7uVe34fJ0Ee8AM45FvgvTuvfWWaRgIpA4pQ1BHJuu2ospncZhkcJVeA==}
+    engines: {node: '>=v14'}
     peerDependencies:
-      rollup: ^2.55
+      rollup: ^3.0.0
       typescript: ^4.1
     dependencies:
-      magic-string: 0.26.2
+      magic-string: 0.27.0
       rollup: 3.2.4
       typescript: 4.8.3
     optionalDependencies:
