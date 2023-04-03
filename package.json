@@ -42,7 +42,7 @@
     "@vue/compiler-core": "3.2.39",
     "@vue/compiler-sfc": "3.2.39",
     "aggregate-error": "4.0.1",
-    "bumpp": "8.2.1",
+    "bumpp": "9.1.0",
     "es-jest": "2.0.0",
     "esbuild": "0.15.7",
     "eslint": "8.23.0",
